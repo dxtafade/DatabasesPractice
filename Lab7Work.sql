@@ -1,7 +1,6 @@
 --PART 1
 --Task 1.1
 --Using the employees, departments, and projects tables from Lab6Work.
---Connect to the Lab6Work database in DataGrip before running the queries.
 
 --PART 2
 --Task 2.1
@@ -352,5 +351,3 @@ GRANT viewer_role TO alice;
 GRANT analyst_role TO bob;
 GRANT manager_role TO charlie;
 
---Alice can read; Bob inherits SELECT and INSERT and can UPDATE; Charlie also can DELETE.
---Additional schema USAGE permissions may be needed for non-default schema privileges.
